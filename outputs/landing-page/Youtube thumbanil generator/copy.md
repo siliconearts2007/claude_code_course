@@ -1,40 +1,39 @@
-## Hero
-**Headline:** Create Eye‑Catching YouTube Thumbnails in Seconds
-**Subheadline:** Boost your click‑through rate with AI‑powered designs that match your brand.
-**CTA:** Get Started – Free Trial
+### 2. Full Landing Page Copy
 
-## Problem
-- Low CTR on videos because thumbnails look generic.
-- Designing thumbnails takes hours you could spend creating content.
-- Inconsistent branding across videos confuses viewers.
+**Hero**
+*Headline:* Create Click‑Magnet Thumbnails in Seconds
+*Sub‑headline:* Stop guessing. Use proven, high‑CTR designs powered by AI and launch videos that get noticed.
+*CTA:* Start Free Trial
 
-## Features
-- **AI‑Generated Thumbnails:** Input your video title and let the AI suggest multiple designs instantly.
-- **Brand Matching:** Upload your logo/color palette and the tool keeps every thumbnail on‑brand.
-- **One‑Click Export:** Download ready‑to‑use PNGs in the proper YouTube size.
+**Problem**
+You spend hours wrestling with Photoshop, guessing what will attract viewers, and still missing the mark. Inconsistent branding and low click‑through rates keep your channel stuck.
 
-## How It Works
-1. **Enter Title:** Type your video title.
-2. **Choose Style:** Select a design preset or let AI suggest the best fit.
-3. **Download:** Click download and upload to YouTube.
+**Features**
 
-## Testimonials
-> "My CTR jumped from 3% to 12% after using this tool!" – *Emily, 250k subs*
-> "I saved hours every week – the AI designs look professional every time." – *Jake, 1M subs*
+1. **One‑Click Templates** – Access professionally crafted thumbnail layouts that are already optimized for YouTube’s algorithm.
+2. **AI‑Powered Text Suggestion** – Type your video topic and get headline ideas that boost curiosity and clicks.
+3. **Export Ready for YouTube** – Download at the exact 1280 × 720 resolution with the correct file size, every time.
 
-## Pricing
-- **Free Tier:** 5 thumbnail renders per month.
-- **Pro – $9.99/mo:** Unlimited renders, brand presets, priority support.
+**How It Works**
 
-## FAQ
-**Q:** Do I need design skills?
-**A:** No. The AI handles the design; you just provide a title.
+1. **Pick a Template** – Browse our library of high‑performing designs.
+2. **Customize** – Edit text, swap images, and apply your brand colors in a visual editor.
+3. **Download & Upload** – Get a ready‑to‑use PNG and publish instantly.
 
-**Q:** Are the thumbnails YouTube‑approved?
-**A:** Yes, they meet YouTube’s size and format requirements.
+**Testimonials**
+> “I cut my thumbnail creation time from 30 minutes to under 2 minutes. My CTR jumped 27%!” – *Lena, Gaming Creator*
 
-**Q:** Can I use my own fonts?
-**A:** Upload custom fonts in the brand settings.
+> “The AI headline generator gave me ideas I’d never thought of. My subscriber growth accelerated instantly.” – *Mike, Tech Reviewer*
 
-**Q:** Is there a commitment?
-**A:** Cancel anytime, no contract.
+**Pricing**
+- **Free** – Unlimited thumbnails, limited templates, AI suggestions (5 per month).
+- **Pro – $12/mo** – Full template library, unlimited AI suggestions, priority support, and brand kit saving.
+
+**FAQ**
+- *Do I need design skills?* No. All templates are drag‑and‑drop ready.
+- *Can I use my own fonts?* Yes, upload custom fonts in the Pro plan.
+- *Is there a water‑mark on the free version?* No, thumbnails are clean; Pro provides premium assets.
+- *What file format is exported?* PNG optimized for YouTube’s recommended size.
+
+**CTA**
+Ready to boost your views? Start your free trial now and see the difference.
