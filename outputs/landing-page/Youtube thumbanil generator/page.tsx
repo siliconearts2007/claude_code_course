@@ -1,131 +1,139 @@
-import React from 'react';
+import Image from 'next/image'
 
 export default function LandingPage() {
   return (
-    <div className="font-sans text-gray-900">
-      {/* Hero */}
-      <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20 px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Create Eye‑Catching Thumbnails in Seconds</h1>
-        <p className="text-lg md:text-xl mb-6">Stop wasting hours on design – let our AI make scroll‑stopping thumbnails for your videos, every time.</p>
-        <a href="#pricing" className="bg-white text-indigo-600 font-semibold py-3 px-8 rounded-full hover:bg-gray-100 transition">
-          Get Started Free
-        </a>
+    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4">
+      {/* Hero Section */}
+      <section className="w-full max-w-4xl text-center py-12">
+        <h1 className="text-5xl font-bold text-gray-800 mb-4">
+          Create Eye‑Catching YouTube Thumbnails in Seconds
+        </h1>
+        <p className="text-xl text-gray-600 mb-6">
+          Boost your click‑through rate with AI‑powered designs that match your brand.
+        </p>
+        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-md transition">
+          Get Started – Free Trial
+        </button>
+        <div className="mt-8 flex justify-center">
+          {/* Placeholder thumbnail preview */}
+          <Image
+            src="/placeholder-thumbnail.png"
+            alt="Thumbnail designer preview"
+            width={640}
+            height={360}
+            className="rounded shadow-lg"
+          />
+        </div>
       </section>
 
-      {/* Problem */}
-      <section className="py-12 px-4 max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl font-semibold mb-4">The Problem</h2>
-        <p>You spend too much time tweaking images, and inconsistent thumbnails hurt click‑through rates. The pressure to publish weekly leaves you scrambling for graphics that actually attract viewers.</p>
+      {/* Problem Section */}
+      <section className="w-full max-w-3xl py-8">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">The Problem</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>Low CTR on videos because thumbnails look generic.</li>
+          <li>Designing thumbnails takes hours you could spend creating content.</li>
+          <li>Inconsistent branding across videos confuses viewers.</li>
+        </ul>
       </section>
 
-      {/* Features */}
-      <section className="bg-gray-50 py-12 px-4">
-        <div className="max-w-5xl mx-auto grid gap-8 md:grid-cols-3 text-center">
-          <div className="p-6 bg-white rounded-lg shadow">
-            <svg className="w-12 h-12 mx-auto mb-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4"/></svg>
-            <h3 className="font-semibold mb-2">Instant AI Design</h3>
-            <p>Generate a custom thumbnail in 10 seconds – no Photoshop needed.</p>
+      {/* Solution Overview */}
+      <section className="w-full max-w-3xl py-8 bg-white rounded-lg shadow-md">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Why Choose Our Thumbnail Generator?</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          <div className="p-4">
+            <h3 className="text-xl font-medium text-gray-700 mb-2">AI‑Generated Designs</h3>
+            <p className="text-gray-600">Enter your video title and get multiple custom thumbnails instantly.</p>
           </div>
-          <div className="p-6 bg-white rounded-lg shadow">
-            <svg className="w-12 h-12 mx-auto mb-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/></svg>
-            <h3 className="font-semibold mb-2">Brand Consistency</h3>
-            <p>Apply your channel colors, fonts, and logo with one click.</p>
+          <div className="p-4">
+            <h3 className="text-xl font-medium text-gray-700 mb-2">Brand Consistency</h3>
+            <p className="text-gray-600">Upload your logo and color palette; every thumbnail stays on‑brand.</p>
           </div>
-          <div className="p-6 bg-white rounded-lg shadow">
-            <svg className="w-12 h-12 mx-auto mb-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7h18M3 12h18M3 17h18"/></svg>
-            <h3 className="font-semibold mb-2">Batch Production</h3>
-            <p>Create thumbnails for an entire series in minutes, keeping a cohesive look.</p>
+          <div className="p-4">
+            <h3 className="text-xl font-medium text-gray-700 mb-2">One‑Click Export</h3>
+            <p className="text-gray-600">Download ready‑to‑use PNGs in the exact YouTube dimensions.</p>
           </div>
         </div>
       </section>
 
       {/* How It Works */}
-      <section className="py-12 px-4 max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl font-semibold mb-6">How It Works</h2>
-        <ol className="space-y-4 text-left">
-          <li><strong>Enter Video Info</strong> – title, keywords, and upload your logo.</li>
-          <li><strong>Choose a Style</strong> – pick a template that matches your vibe.</li>
-          <li><strong>Download &amp; Publish</strong> – get a ready‑to‑use image and boost your CTR.</li>
+      <section className="w-full max-w-3xl py-8">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">How It Works</h2>
+        <ol className="list-decimal list-inside space-y-2 text-gray-700">
+          <li><strong>Enter Title:</strong> Type your video title.</li>
+          <li><strong>Choose Style:</strong> Select a design preset or let AI suggest the best fit.</li>
+          <li><strong>Download:</strong> Click download and upload to YouTube.</li>
         </ol>
       </section>
 
       {/* Testimonials */}
-      <section className="bg-gray-100 py-12 px-4">
-        <h2 className="text-2xl font-semibold text-center mb-8">What Creators Say</h2>
-        <div className="max-w-4xl mx-auto grid gap-8 md:grid-cols-2">
-          <blockquote className="bg-white p-6 rounded-lg shadow">
-            <p className="italic mb-4">"My CPM jumped 30% after I started using the generator. It’s the best time‑saver I’ve found."</p>
-            <footer className="text-sm font-medium">— Ava, 250k subscribers</footer>
-          </blockquote>
-          <blockquote className="bg-white p-6 rounded-lg shadow">
-            <p className="italic mb-4">"I love how the AI keeps my branding consistent across videos. My audience notices the polish."</p>
-            <footer className="text-sm font-medium">— Liam, 120k subscribers</footer>
-          </blockquote>
-        </div>
+      <section className="w-full max-w-3xl py-8">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">What Creators Say</h2>
+        <blockquote className="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-4">
+          "My CTR jumped from 3% to 12% after using this tool!" – Emily, 250k subs
+        </blockquote>
+        <blockquote className="border-l-4 border-blue-600 pl-4 italic text-gray-700">
+          "I saved hours every week – the AI designs look professional every time." – Jake, 1M subs
+        </blockquote>
       </section>
 
       {/* Pricing */}
-      <section id="pricing" className="py-12 px-4">
-        <h2 className="text-2xl font-semibold text-center mb-8">Pricing</h2>
-        <div className="max-w-5xl mx-auto grid gap-8 md:grid-cols-3">
-          <div className="border rounded-lg p-6 text-center">
-            <h3 className="font-semibold mb-4">Free</h3>
-            <p className="text-3xl font-bold mb-4">$0</p>
-            <ul className="mb-4 text-left">
-              <li>5 thumbnails / month</li>
-              <li>Basic templates</li>
-            </ul>
-            <a href="#" className="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700">Start Free</a>
+      <section className="w-full max-w-3xl py-8 bg-gray-100 rounded-lg">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Pricing</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="p-6 border border-gray-300 rounded">
+            <h3 className="text-2xl font-medium mb-2">Free Tier</h3>
+            <p className="text-gray-600 mb-2">5 thumbnail renders per month</p>
+            <button className="mt-2 bg-gray-300 text-gray-800 py-2 px-4 rounded disabled:opacity-50" disabled>
+              Current Plan
+            </button>
           </div>
-          <div className="border-2 border-indigo-600 rounded-lg p-6 text-center">
-            <h3 className="font-semibold mb-4">Pro</h3>
-            <p className="text-3xl font-bold mb-4">$9.99/mo</p>
-            <ul className="mb-4 text-left">
-              <li>200 thumbnails</li>
-              <li>Brand kit & batch mode</li>
+          <div className="p-6 border border-blue-600 rounded bg-white">
+            <h3 className="text-2xl font-medium mb-2">Pro – $9.99/mo</h3>
+            <ul className="list-disc list-inside text-gray-600 mb-2">
+              <li>Unlimited renders</li>
+              <li>Brand presets</li>
+              <li>Priority support</li>
             </ul>
-            <a href="#" className="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700">Start Free Trial</a>
-          </div>
-          <div className="border rounded-lg p-6 text-center">
-            <h3 className="font-semibold mb-4">Enterprise</h3>
-            <p className="text-3xl font-bold mb-4">Custom</p>
-            <ul className="mb-4 text-left">
-              <li>Unlimited thumbnails</li>
-              <li>Team access & priority support</li>
-            </ul>
-            <a href="#" className="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700">Contact Sales</a>
+            <button className="mt-2 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">
+              Upgrade Now
+            </button>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="bg-gray-50 py-12 px-4">
-        <h2 className="text-2xl font-semibold text-center mb-8">FAQ</h2>
-        <dl className="max-w-3xl mx-auto space-y-4">
+      <section className="w-full max-w-3xl py-8">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">FAQ</h2>
+        <dl className="space-y-4 text-gray-700">
           <div>
             <dt className="font-medium">Do I need design skills?</dt>
-            <dd className="ml-4">No. Just input your video details and let the AI handle the rest.</dd>
+            <dd className="ml-4">No. The AI handles the design; you just provide a title.</dd>
+          </div>
+          <div>
+            <dt className="font-medium">Are the thumbnails YouTube‑approved?</dt>
+            <dd className="ml-4">Yes, they meet YouTube’s size and format requirements.</dd>
           </div>
           <div>
             <dt className="font-medium">Can I use my own fonts?</dt>
-            <dd className="ml-4">Yes, upload any font in the brand kit.</dd>
+            <dd className="ml-4">Upload custom fonts in the brand settings.</dd>
           </div>
           <div>
-            <dt className="font-medium">Is there a free tier?</dt>
-            <dd className="ml-4">Absolutely – generate up to 5 thumbnails each month at no cost.</dd>
+            <dt className="font-medium">Is there a commitment?</dt>
+            <dd className="ml-4">Cancel anytime, no contract.</dd>
           </div>
         </dl>
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-6 text-center">
-        <nav className="mb-4">
-          <a href="#" className="mx-2 hover:underline">About</a>
-          <a href="#" className="mx-2 hover:underline">Docs</a>
-          <a href="#" className="mx-2 hover:underline">Contact</a>
+      <footer className="w-full max-w-4xl py-6 text-center text-sm text-gray-500">
+        <nav className="mb-4 space-x-4">
+          <a href="#" className="hover:underline">Features</a>
+          <a href="#" className="hover:underline">Pricing</a>
+          <a href="#" className="hover:underline">FAQ</a>
+          <a href="#" className="hover:underline">Contact</a>
         </nav>
-        <p>© 2026 Thumbnailify. All rights reserved.</p>
+        <p>© 2026 ThumbnailGen. All rights reserved.</p>
       </footer>
-    </div>
-  );
+    </main>
+  )
 }
