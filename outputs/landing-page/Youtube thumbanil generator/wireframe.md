@@ -1,29 +1,24 @@
-### 1. Wireframe
+# Wireframe for YouTube Thumbnail Generator Landing Page
 
-- **Hero Section**
-  - Headline
-  - Sub‑headline
-  - Primary CTA button (“Start Free Trial”)
-  - Supporting image of a YouTube thumbnail editor mockup
-- **Problem Section**
-  - Bulleted pain points Youtubers face when creating thumbnails
-  - Small illustrative icons
-- **Features Section**
-  - Three benefit‑driven feature cards
-    1. “One‑Click Templates” – instantly apply high‑click‑through designs
-    2. “AI‑Powered Text Suggestion” – generate catchy titles in seconds
-    3. “Export Ready for YouTube” – correct dimensions & file size every time
-- **How It Works Section**
-  - Three simple steps displayed horizontally
-    1. Choose a template
-    2. Customize text & images
-    3. Download & upload
-- **Testimonials Section**
-  - Two short quotes from real Youtubers with avatar placeholders
-- **Pricing Section**
-  - Free tier badge with limited templates
-  - Pro tier badge with monthly price, feature list, and “Upgrade Now” CTA
-- **FAQ Section**
-  - Four common questions with concise answers
-- **Footer**
-  - Navigation links, privacy policy, and social icons
+## Hero Section
+- Large headline: "Create Eye‑Catching YouTube Thumbnails in Seconds"
+- Sub‑headline: "Boost clicks, grow your channel—no design skills required."
+- Call‑to‑Action button: "Start Free Trial"
+- Supporting image/video preview of the tool UI.
+
+## Features Grid (3 columns)
+1. **AI‑Powered Designs** – Generate dozens of thumbnail variants instantly.
+2. **Customizable Templates** – Edit text, colors, and icons with a click.
+3. **Export Ready** – Download 1080x1080 PNG ready for upload.
+
+## Social Proof
+- Carousel of creator testimonials with photo, name, and short quote.
+- Logos of popular YouTubers (placeholder).
+
+## Pricing CTA
+- Simple pricing table: Free, Pro, Enterprise.
+- Prominent "Upgrade Now" button.
+
+## Footer
+- Links: About, Docs, Contact, Privacy Policy.
+- Small note: "© 2026 YouTube Thumbnail Generator. All rights reserved."
