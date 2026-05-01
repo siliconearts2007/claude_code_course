@@ -1,35 +1,29 @@
 # Wireframe
 
-## Page Structure (section by section)
+**Section 1: Hero**
+- Large headline
+- Sub‑headline supporting the headline
+- Primary CTA button (e.g., "Start Free Trial")
+- Quick visual of the thumbnail designer interface
 
-1. **Hero**
-   - Large headline, sub‑headline, primary CTA button, supporting image/video demo.
-2. **Problem / Pain**
-   - Brief paragraph with an icon, emphasizes time wasted on thumbnail design and low CTR.
-3. **Features**
-   - Three‑column grid, each column shows an icon, feature title, and concise benefit.
-4. **How It Works**
-   - Simple 3‑step graphic with accompanying short text.
-5. **Testimonials**
-   - Carousel of Youtuber quotes with avatar and channel name.
-6. **Pricing**
-   - Tier comparison table (Free, Pro, Enterprise) with CTA button per tier.
-7. **FAQ**
-   - Accordion list of common questions.
-8. **Footer**
-   - Links (About, Docs, Contact), social icons, copyright.
+**Section 2: Problem**
+- Brief bullet list of common Youtuber frustrations (low click‑through, time‑consuming design, inconsistent branding)
 
-### Hierarchy & Flow
-- Hero → Problem → Features → How It Works → Testimonials → Pricing → FAQ → Footer
-- Each section stacks vertically on mobile, uses a two‑column layout on larger screens.
-- Clear visual separation with alternating background shades to guide the eye.
+**Section 3: Solution Overview**
+- One‑sentence value proposition
+- Three benefit‑driven feature cards (AI generated, brand‑consistent, fast)
 
-### Section Explanations
-- **Hero** grabs attention, states the core value, and prompts sign‑up.
-- **Problem** resonates with Youtubers’ frustration over design time.
-- **Features** highlight concrete benefits (speed, customization, batch).
-- **How It Works** shows the effortless process to lower perceived effort.
-- **Testimonials** provide social proof from real creators.
-- **Pricing** presents a low‑risk free tier and a clear upgrade path.
-- **FAQ** removes buying objections.
-- **Footer** offers navigation and trust signals.
+**Section 4: How It Works**
+- Simple 3‑step diagram (1. Enter video title, 2. Choose style, 3. Download thumbnail)
+
+**Section 5: Testimonials**
+- Two quote blocks with Youtuber names and subscriber counts
+
+**Section 6: Pricing**
+- Free tier badge, Pro tier card with monthly price, list of core benefits
+
+**Section 7: FAQ**
+- Four concise Q&A items addressing common concerns
+
+**Section 8: Footer**
+- Navigation links, social icons, copyright
